@@ -2,7 +2,7 @@
 #include <vector>
 
 namespace homework {
-// Hint: Lecture 5 slides
+// Hint for these exercises: Lecture 5 slides
 
 // As 2.1 struct with a method that returns an int
 // TO DO: in src/as1.cxx, implement the method bar() of the struct Foo to return 42.
