@@ -42,7 +42,7 @@ To build and test your code for each assignment, follow these steps:
    make
    ```
 
-6. You can run the main.cxx using the bash script provided:
+6. You can run the main.cxx using the bash script provided, when you go back to the root directory of the repository, run the following commands:
    ```bash
    chmod +x runcode.sh
    ./runcode.sh
@@ -53,7 +53,7 @@ To submit your homework assignment, follow these steps:
 1. Ensure that your code compiles -- the `make` command should complete with no errors -- if it does not compile, it is considered a failed submission.
 2. Create a **draft pull request** to the main branch of the original repository.  
    See: <https://github.blog/news-insights/product-news/introducing-draft-pull-requests/>
-3. When it is ready for review, mark the pull request as ready. Ideally this would be done after all tests pass.
+3. When it is ready for review, mark the pull request as ready. Ideally this would be done after all tests pass. 
 4. Please also submit on canvas the link to your pull request. A pull request link looks like this:  
    <https://github.com/YOURGITHUBUSERNAME/MNXB11-HW1-CXX/pull/PRNUMBER>.  
    For example joachiha's pull request number 1 would be  
