@@ -32,7 +32,7 @@ std::string getName() const;
 
 Color getColor() const;
 
-virtual std::string getTaste() const;
+virtual std::string getTaste() const = 0;
 
 private:
 std::string name_;
@@ -45,11 +45,12 @@ Color colour_;
 // The constructor should take a "Color" as argument and pass the name "apple"
 // to the base class constructor
 
-class Apple : Fruit {
+class Apple : public Fruit {
 public:
 //constructor
-Apple(Color colour) : Fruit("Apple", colour), taste_("sweet"){}
+Apple(Color colour) : Fruit("apple", colour), taste_("sweet"){}
 std::string getTaste() const override; 
+
 
 private:
 std::string taste_;
